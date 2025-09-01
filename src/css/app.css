@@ -1,0 +1,170 @@
+/* Tailwind CSS */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Styles personnalisés */
+@layer base {
+  body {
+    @apply font-sans text-dark leading-relaxed;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-poppins font-bold;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl leading-tight mb-4;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl leading-snug mt-8 mb-4;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl leading-snug mt-6 mb-3;
+  }
+
+  h4 {
+    @apply text-xl md:text-2xl leading-snug mt-4 mb-2;
+  }
+
+  h5 {
+    @apply text-lg md:text-xl leading-snug mt-4 mb-2;
+  }
+
+  h6 {
+    @apply text-base md:text-lg leading-snug mt-4 mb-2;
+  }
+
+  p {
+    @apply mb-4;
+  }
+
+  a {
+    @apply text-primary no-underline transition-colors duration-300;
+  }
+
+  a:hover {
+    @apply underline;
+  }
+}
+
+@layer components {
+  /* Boutons */
+  .btn {
+    @apply inline-block py-3 px-6 rounded font-medium transition-all duration-300;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-accent hover:no-underline;
+  }
+
+  .btn-outline {
+    @apply border border-primary text-primary hover:bg-primary hover:text-white hover:no-underline;
+  }
+
+  /* Cartes */
+  .card {
+    @apply bg-white border border-light rounded-lg p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+
+  /* Conteneurs */
+  .container-content {
+    @apply max-w-content mx-auto px-4;
+  }
+
+  .container-wide {
+    @apply max-w-wide mx-auto px-4;
+  }
+
+  /* En-tête */
+  .site-header {
+    @apply border-b border-light py-4;
+  }
+
+  /* Pied de page */
+  .site-footer {
+    @apply bg-light py-l;
+  }
+
+  /* Navigation */
+  .nav-link {
+    @apply px-3 py-2 text-dark hover:text-primary hover:no-underline relative;
+  }
+
+  .nav-link::after {
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300;
+    content: '';
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  /* Formulaires */
+  .form-input {
+    @apply w-full border border-light rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent;
+  }
+
+  .form-label {
+    @apply block text-sm font-medium mb-1;
+  }
+
+  /* Animations */
+  .animate-fade-in {
+    @apply opacity-0 transition-opacity duration-500;
+  }
+
+  .animate-fade-in.animated {
+    @apply opacity-100;
+  }
+
+  .animate-slide-up {
+    @apply opacity-0 translate-y-8 transition-all duration-500;
+  }
+
+  .animate-slide-up.animated {
+    @apply opacity-100 translate-y-0;
+  }
+}
+
+/* Styles spécifiques pour les blocs */
+@layer utilities {
+  /* Hero Section */
+  .hero-section {
+    @apply relative min-h-[80vh] flex items-center;
+  }
+
+  /* Grille de services */
+  .services-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6;
+  }
+
+  /* Témoignages */
+  .testimonial {
+    @apply bg-white p-6 rounded-lg shadow-md;
+  }
+
+  .testimonial-rating {
+    @apply flex text-warning;
+  }
+
+  /* FAQ Accordéon */
+  .faq-item {
+    @apply border border-light rounded-lg mb-4 overflow-hidden;
+  }
+
+  .faq-question {
+    @apply flex justify-between items-center p-4 cursor-pointer bg-white hover:bg-light;
+  }
+
+  .faq-answer {
+    @apply p-4 border-t border-light;
+  }
+
+  /* Accessibilité */
+  .screen-reader-text {
+    @apply sr-only;
+  }
+}

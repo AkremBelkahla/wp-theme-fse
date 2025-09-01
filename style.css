@@ -1,0 +1,19 @@
+/*
+Theme Name: MinimalFSE
+Theme URI: https://infinityweb.tn/minimalfse
+Author: Akrem Belkahla
+Author URI: https://infinityweb.tn
+Description: Un thème WordPress FSE minimaliste et performant, conçu pour les agences digitales.
+Requires at least: WordPress 6.6
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: minimalfse
+Tags: full-site-editing, block-patterns, minimal, responsive, light, dark-mode, custom-colors
+*/
+
+/* 
+Ce thème utilise le Full Site Editing de WordPress.
+La majorité des styles sont définis dans le fichier theme.json.
+Ce fichier CSS est principalement utilisé pour l'identification du thème.
+*/

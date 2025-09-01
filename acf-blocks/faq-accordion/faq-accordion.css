@@ -1,0 +1,43 @@
+/**
+ * Styles pour le bloc FAQ Accordéon avec Tailwind CSS
+ * 
+ * La plupart des styles sont gérés directement par les classes Tailwind dans le HTML.
+ * Ce fichier ne contient que les styles nécessaires qui ne peuvent pas être gérés par Tailwind.
+ */
+
+/* Styles pour l'animation de transition */
+.max-h-0 {
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.max-h-screen {
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+/* Styles spécifiques pour les différents styles d'accordéon */
+.faq-modern .border.border-gray-200.rounded-lg:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.faq-modern .border.border-gray-200.rounded-lg.active {
+    border-left: 4px solid #0056b3;
+}
+
+.faq-minimal .border.border-gray-200.rounded-lg {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+/* Styles pour l'éditeur Gutenberg */
+.block-editor-block-list__block .wp-block-acf-faq-accordion {
+    padding: 1rem;
+    border: 1px dashed #ccc;
+}
+
+.block-editor-block-list__block .wp-block-acf-faq-accordion:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 0 1px #0056b3;
+}
