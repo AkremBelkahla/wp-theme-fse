@@ -1,0 +1,206 @@
+/**
+ * Styles pour l'éditeur WordPress
+ * Ces styles assurent une expérience cohérente entre l'éditeur et le front-end
+ */
+
+/* Styles de base pour l'éditeur */
+.editor-styles-wrapper {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    color: #212529;
+    line-height: 1.6;
+}
+
+/* Styles pour les titres */
+.editor-styles-wrapper h1,
+.editor-styles-wrapper .editor-post-title__input {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.editor-styles-wrapper h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.editor-styles-wrapper h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.editor-styles-wrapper h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.editor-styles-wrapper h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.editor-styles-wrapper h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+/* Styles pour les paragraphes */
+.editor-styles-wrapper p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* Styles pour les liens */
+.editor-styles-wrapper a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.editor-styles-wrapper a:hover {
+    text-decoration: underline;
+}
+
+/* Styles pour les boutons */
+.editor-styles-wrapper .wp-block-button__link {
+    background-color: #0056b3;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+}
+
+.editor-styles-wrapper .wp-block-button__link:hover {
+    background-color: #17a2b8;
+}
+
+.editor-styles-wrapper .is-style-outline .wp-block-button__link {
+    background-color: transparent;
+    color: #0056b3;
+    border: 1px solid #0056b3;
+}
+
+.editor-styles-wrapper .is-style-outline .wp-block-button__link:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+/* Styles pour les citations */
+.editor-styles-wrapper blockquote {
+    border-left: 4px solid #0056b3;
+    padding-left: 1rem;
+    font-style: italic;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.editor-styles-wrapper blockquote cite {
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    font-style: normal;
+}
+
+/* Styles pour les listes */
+.editor-styles-wrapper ul,
+.editor-styles-wrapper ol {
+    padding-left: 1.5rem;
+}
+
+.editor-styles-wrapper li {
+    margin-bottom: 0.5rem;
+}
+
+/* Styles pour les tableaux */
+.editor-styles-wrapper table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.editor-styles-wrapper th,
+.editor-styles-wrapper td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #f8f9fa;
+}
+
+.editor-styles-wrapper th {
+    background-color: #f8f9fa;
+    font-weight: 700;
+}
+
+/* Styles pour les images */
+.editor-styles-wrapper .wp-block-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styles pour les légendes */
+.editor-styles-wrapper figcaption {
+    font-size: 0.875rem;
+    color: #6c757d;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+/* Styles pour les séparateurs */
+.editor-styles-wrapper hr {
+    border: 0;
+    border-top: 1px solid #f8f9fa;
+    margin: 2rem 0;
+}
+
+/* Styles pour les blocs de code */
+.editor-styles-wrapper pre {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+.editor-styles-wrapper code {
+    font-family: monospace;
+    background-color: #f8f9fa;
+    padding: 0.2rem 0.4rem;
+    border-radius: 2px;
+}
+
+/* Styles pour les colonnes */
+.editor-styles-wrapper .wp-block-columns {
+    margin-bottom: 2rem;
+}
+
+/* Styles pour les groupes */
+.editor-styles-wrapper .wp-block-group {
+    margin-bottom: 2rem;
+}
+
+/* Styles pour les médias et texte */
+.editor-styles-wrapper .wp-block-media-text {
+    margin-bottom: 2rem;
+}
+
+/* Styles pour les couvertures */
+.editor-styles-wrapper .wp-block-cover {
+    margin-bottom: 2rem;
+}
+
+/* Styles pour les galeries */
+.editor-styles-wrapper .wp-block-gallery {
+    margin-bottom: 2rem;
+}
+
+/* Styles pour les embeds */
+.editor-styles-wrapper .wp-block-embed {
+    margin-bottom: 2rem;
+}
