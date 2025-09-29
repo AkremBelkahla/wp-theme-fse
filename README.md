@@ -1,5 +1,7 @@
 # MinimalFSE - Thème WordPress FSE Minimaliste avec Tailwind CSS
 
+> ⚠️ **ATTENTION** : Ce thème est actuellement en cours de développement et n'est pas encore prêt pour une utilisation en production. Certaines fonctionnalités peuvent être incomplètes ou sujettes à modification.
+
 MinimalFSE est un thème WordPress Full Site Editing (FSE) minimaliste, performant et moderne, conçu pour les agences digitales et les sites vitrines professionnels. Il utilise Tailwind CSS pour une mise en page flexible et efficace.
 
 ## Caractéristiques
