@@ -1,0 +1,107 @@
+/**
+ * Styles pour le front-end du bloc Feature Box
+ */
+
+.wp-block-minimalfse-feature-box {
+    padding: 2rem;
+    border-radius: 4px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.wp-block-minimalfse-feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.wp-block-minimalfse-feature-box .feature-box-icon {
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.wp-block-minimalfse-feature-box .feature-box-title {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.wp-block-minimalfse-feature-box .feature-box-description {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.wp-block-minimalfse-feature-box .feature-box-link {
+    display: inline-block;
+    color: var(--wp--preset--color--primary);
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 2px;
+}
+
+.wp-block-minimalfse-feature-box .feature-box-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--wp--preset--color--primary);
+    transition: width 0.3s ease;
+}
+
+.wp-block-minimalfse-feature-box .feature-box-link:hover::after {
+    width: 100%;
+}
+
+.wp-block-minimalfse-feature-box.align-center {
+    text-align: center;
+}
+
+.wp-block-minimalfse-feature-box.align-right {
+    text-align: right;
+}
+
+.wp-block-minimalfse-feature-box.align-left {
+    text-align: left;
+}
+
+/* Animation au défilement */
+.wp-block-minimalfse-feature-box.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.wp-block-minimalfse-feature-box.animate-on-scroll.animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Variantes de style */
+.wp-block-minimalfse-feature-box.is-style-boxed {
+    border: 1px solid var(--wp--preset--color--light);
+    background-color: var(--wp--preset--color--white);
+}
+
+.wp-block-minimalfse-feature-box.is-style-shadow {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.wp-block-minimalfse-feature-box.is-style-outline {
+    border: 2px solid var(--wp--preset--color--primary);
+    background-color: transparent;
+}
+
+/* Responsive */
+@media (max-width: 781px) {
+    .wp-block-minimalfse-feature-box {
+        padding: 1.5rem;
+    }
+    
+    .wp-block-minimalfse-feature-box .feature-box-title {
+        font-size: 1.25rem;
+    }
+}

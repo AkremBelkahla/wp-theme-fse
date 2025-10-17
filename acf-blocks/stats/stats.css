@@ -1,0 +1,157 @@
+/**
+ * Styles pour le bloc Statistiques
+ */
+
+.stats-block {
+    padding: 3rem 0;
+    position: relative;
+}
+
+.stats-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+}
+
+.stats-title {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.stats-description {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: var(--wp--preset--color--secondary);
+}
+
+.stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* Layout en grille */
+.stats-layout-grid .stats-container {
+    display: grid;
+    grid-template-columns: repeat(var(--columns, 4), 1fr);
+    gap: 2rem;
+}
+
+.stats-columns-1 {
+    --columns: 1;
+}
+
+.stats-columns-2 {
+    --columns: 2;
+}
+
+.stats-columns-3 {
+    --columns: 3;
+}
+
+.stats-columns-4 {
+    --columns: 4;
+}
+
+/* Layout en ligne */
+.stats-layout-row .stats-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 2rem;
+    padding-bottom: 1rem;
+}
+
+.stats-layout-row .stats-item {
+    flex: 0 0 auto;
+    width: 250px;
+}
+
+/* Style des items */
+.stats-item {
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: var(--wp--preset--color--white);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stats-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.stats-icon {
+    margin-bottom: 1rem;
+    color: var(--wp--preset--color--primary);
+}
+
+.stats-number-container {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    color: var(--wp--preset--color--primary);
+}
+
+.stats-number {
+    display: inline-block;
+}
+
+.stats-suffix {
+    font-size: 2rem;
+    display: inline-block;
+}
+
+.stats-label {
+    font-size: 1.125rem;
+    color: var(--wp--preset--color--dark);
+}
+
+/* Notice de prévisualisation dans l'éditeur */
+.acf-block-preview-notice {
+    background-color: #f8f9fa;
+    border: 1px dashed #ced4da;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .stats-layout-grid .stats-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .stats-layout-grid .stats-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .stats-layout-row .stats-container {
+        padding-bottom: 1.5rem;
+    }
+    
+    .stats-layout-row .stats-item {
+        width: 200px;
+    }
+    
+    .stats-number-container {
+        font-size: 2rem;
+    }
+    
+    .stats-suffix {
+        font-size: 1.75rem;
+    }
+    
+    .stats-label {
+        font-size: 1rem;
+    }
+}

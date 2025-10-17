@@ -1,0 +1,94 @@
+# Copyright (C) 2025 Akrem Belkahla
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: MinimalFSE 1.0.0\n"
+"Report-Msgid-Bugs-To: https://infinityweb.tn\n"
+"POT-Creation-Date: 2025-01-01 00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: functions.php:44
+msgid "Menu principal"
+msgstr ""
+
+#: functions.php:45
+msgid "Menu pied de page"
+msgstr ""
+
+#: inc/blocks.php:47
+msgid "MinimalFSE"
+msgstr ""
+
+#: inc/blocks.php:67
+msgid "En-têtes"
+msgstr ""
+
+#: inc/blocks.php:72
+msgid "Pieds de page"
+msgstr ""
+
+#: inc/blocks.php:77
+msgid "Appels à l'action"
+msgstr ""
+
+#: inc/blocks.php:82
+msgid "Services"
+msgstr ""
+
+#: inc/block-overrides.php:42
+msgid "Mis en évidence"
+msgstr ""
+
+#: inc/block-overrides.php:58
+msgid "Carte"
+msgstr ""
+
+#: inc/block-overrides.php:80
+msgid "Arrondie"
+msgstr ""
+
+#: inc/block-overrides.php:94
+#: inc/block-overrides.php:108
+msgid "Ombre"
+msgstr ""
+
+#: inc/block-overrides.php:124
+msgid "Moderne"
+msgstr ""
+
+#: inc/block-overrides.php:155
+msgid "À cocher"
+msgstr ""
+
+#: inc/acf-blocks.php:31
+msgid "Témoignage"
+msgstr ""
+
+#: inc/acf-blocks.php:32
+msgid "Un bloc pour afficher un témoignage client avec photo et citation."
+msgstr ""
+
+#: inc/acf-blocks.php:69
+msgid "Statistiques"
+msgstr ""
+
+#: inc/acf-blocks.php:70
+msgid "Un bloc pour afficher des statistiques avec compteurs animés."
+msgstr ""
+
+#: inc/acf-blocks.php:106
+msgid "FAQ Accordéon"
+msgstr ""
+
+#: inc/acf-blocks.php:107
+msgid "Un bloc accordéon pour afficher des questions fréquentes."
+msgstr ""
+
+#: inc/acf-blocks.php:149
+msgid "Pour utiliser toutes les fonctionnalités du thème MinimalFSE, veuillez installer et activer le plugin <strong>Advanced Custom Fields PRO</strong>."
+msgstr ""

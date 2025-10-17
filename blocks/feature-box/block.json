@@ -1,0 +1,66 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "minimalfse/feature-box",
+    "version": "1.0.0",
+    "title": "Boîte de fonctionnalité",
+    "category": "design",
+    "icon": "star-filled",
+    "description": "Affiche une boîte avec une icône, un titre et une description.",
+    "keywords": ["feature", "box", "icon", "service"],
+    "supports": {
+        "html": false,
+        "align": ["wide", "full"],
+        "color": {
+            "background": true,
+            "text": true,
+            "gradients": true
+        },
+        "spacing": {
+            "margin": true,
+            "padding": true
+        }
+    },
+    "attributes": {
+        "title": {
+            "type": "string",
+            "source": "html",
+            "selector": "h3",
+            "default": "Titre de la fonctionnalité"
+        },
+        "description": {
+            "type": "string",
+            "source": "html",
+            "selector": "p",
+            "default": "Description de la fonctionnalité. Ajoutez ici votre texte."
+        },
+        "icon": {
+            "type": "string",
+            "default": "star-filled"
+        },
+        "iconColor": {
+            "type": "string",
+            "default": "#0056b3"
+        },
+        "iconSize": {
+            "type": "number",
+            "default": 48
+        },
+        "linkText": {
+            "type": "string",
+            "default": "En savoir plus"
+        },
+        "linkUrl": {
+            "type": "string",
+            "default": "#"
+        },
+        "alignment": {
+            "type": "string",
+            "default": "center"
+        }
+    },
+    "textdomain": "minimalfse",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./index.css",
+    "style": "file:./style-index.css"
+}
