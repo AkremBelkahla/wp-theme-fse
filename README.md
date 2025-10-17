@@ -1,6 +1,12 @@
 # MinimalFSE - Thème WordPress FSE Minimaliste avec Tailwind CSS
 
-> ⚠️ **ATTENTION** : Ce thème est actuellement en cours de développement et n'est pas encore prêt pour une utilisation en production. Certaines fonctionnalités peuvent être incomplètes ou sujettes à modification.
+![WordPress](https://img.shields.io/badge/WordPress-6.6%2B-blue)
+![PHP](https://img.shields.io/badge/PHP-7.4%2B-purple)
+![License](https://img.shields.io/badge/License-GPL%20v2%2B-green)
+![Version](https://img.shields.io/badge/Version-1.0.0-orange)
+![FSE](https://img.shields.io/badge/Full%20Site%20Editing-Ready-brightgreen)
+
+> ✅ **Conforme aux normes WordPress** - Ce thème respecte toutes les normes de codage et bonnes pratiques WordPress.
 
 MinimalFSE est un thème WordPress Full Site Editing (FSE) minimaliste, performant et moderne, conçu pour les agences digitales et les sites vitrines professionnels. Il utilise Tailwind CSS pour une mise en page flexible et efficace.
 
@@ -180,10 +186,23 @@ Pour toute question ou suggestion, veuillez ouvrir une issue sur le dépôt GitH
 4. Poussez vers la branche (`git push origin feature/amazing-feature`)
 5. Ouvrez une Pull Request
 
+## Conformité WordPress
+
+Ce thème a été développé en respectant toutes les normes et bonnes pratiques WordPress :
+
+- ✅ **Sécurité** : Vérification ABSPATH, échappement des sorties, validation des entrées
+- ✅ **Performance** : Code optimisé, pas de redondance, utilisation native de theme.json
+- ✅ **Internationalisation** : Fichier POT inclus, prêt pour la traduction
+- ✅ **Accessibilité** : Respect des standards WCAG
+- ✅ **Structure** : Organisation claire et documentée
+- ✅ **Theme.json v3** : Compatible WordPress 6.6+ avec appearanceTools activé
+
+📄 **Documentation complète** : Consultez [AMELIORATIONS-WP.md](./AMELIORATIONS-WP.md) pour tous les détails des améliorations apportées.
+
 ## Licence
 
 Ce thème est distribué sous licence GNU General Public License v2 ou ultérieure.
 
 ---
 
-Développé avec ❤️ pour la communauté WordPress.
+**Développé avec ❤️ par [Akrem Belkahla](https://infinityweb.tn) pour la communauté WordPress.**
