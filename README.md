@@ -10,19 +10,97 @@
 
 MinimalFSE est un thème WordPress Full Site Editing (FSE) minimaliste, performant et moderne, conçu pour les agences digitales et les sites vitrines professionnels. Il utilise Tailwind CSS pour une mise en page flexible et efficace.
 
-## Caractéristiques
+## ✨ Fonctionnalités disponibles
 
-- **Full Site Editing** : Profitez de toutes les fonctionnalités de l'éditeur de site complet de WordPress.
-- **Tailwind CSS** : Utilise le framework CSS utilitaire pour un développement rapide et flexible.
-- **Design minimaliste** : Interface épurée et élégante, adaptée aux sites professionnels.
-- **Haute performance** : Optimisé pour des temps de chargement rapides avec CSS purgeé.
-- **Responsive** : S'adapte parfaitement à tous les appareils (mobile, tablette, desktop).
-- **Personnalisable** : Palette de couleurs, typographies et espacements entièrement personnalisables.
-- **Compatible Gutenberg** : Conçu pour tirer pleinement parti de l'éditeur de blocs.
-- **Compositions (Patterns)** : Inclut des compositions prédéfinies pour construire rapidement votre site.
-- **Variations de blocs** : Des variations personnalisées pour les blocs natifs de WordPress.
-- **Blocs personnalisés** : Blocs sur mesure développés avec l'API native de WordPress.
-- **Support ACF Blocks** : Intégration avec Advanced Custom Fields pour des blocs avancés.
+### 🎨 Full Site Editing (FSE)
+- ✅ **Theme.json v3** - Configuration complète avec `appearanceTools` activé
+- ✅ **Templates FSE** - 4 templates : Index, Single, Archive, 404
+- ✅ **Template Parts** - Header et Footer personnalisables
+- ✅ **Éditeur de site** - Personnalisation complète via l'interface WordPress
+- ✅ **Styles globaux** - Gestion centralisée des couleurs, typographies et espacements
+
+### 🎭 Compositions (Block Patterns)
+- ✅ **Hero Section** - Section d'en-tête avec arrière-plan et CTA
+- ✅ **Services Grid** - Grille de services avec icônes SVG
+- ✅ **Testimonials** - Section de témoignages clients
+- ✅ **CTA Section** - Appels à l'action avec boutons
+- ✅ **Team Members** - Présentation des membres de l'équipe
+
+### 🧩 Variations de blocs
+- ✅ **Boutons** - Variations primaire, secondaire et avec ombre
+- ✅ **Groupes** - Variations carte avec effet hover
+- ✅ **Images** - Variations arrondies et avec ombre
+- ✅ **Paragraphes** - Variation mise en évidence
+- ✅ **Citations** - Style moderne avec guillemets
+- ✅ **Listes** - Style avec coches personnalisées
+
+### 🔌 Blocs personnalisés
+- ✅ **Feature Box** - Bloc pour afficher une fonctionnalité avec icône
+- ✅ **Témoignage ACF** - Bloc témoignage avec photo et notation (nécessite ACF Pro)
+- ✅ **Statistiques ACF** - Bloc statistiques avec compteurs animés (nécessite ACF Pro)
+- ✅ **FAQ Accordéon ACF** - Bloc accordéon pour questions fréquentes (nécessite ACF Pro)
+
+### 🎨 Design & Styles
+- ✅ **Tailwind CSS** - Framework CSS utilitaire intégré
+- ✅ **9 couleurs prédéfinies** - Palette complète et personnalisable
+- ✅ **3 familles de polices** - Système, Poppins, Merriweather
+- ✅ **6 tailles de police** - De petit à gigantesque
+- ✅ **7 espacements** - Système d'espacement cohérent
+- ✅ **Responsive** - Adaptatif sur tous les appareils
+- ✅ **Dark mode ready** - Structure préparée pour le mode sombre
+
+### 🔒 Sécurité & Performance
+- ✅ **Vérification ABSPATH** - Protection contre l'accès direct
+- ✅ **Échappement des sorties** - Sécurité des données
+- ✅ **Code optimisé** - Pas de redondance, performances maximales
+- ✅ **CSS purgé** - Tailwind optimisé pour la production
+
+### 🌍 Internationalisation
+- ✅ **Fichier POT inclus** - Prêt pour la traduction
+- ✅ **Text domain** - `minimalfse` configuré
+- ✅ **Translation ready** - Toutes les chaînes sont traduisibles
+
+### 📚 Documentation
+- ✅ **README.md** - Documentation complète
+- ✅ **readme.txt** - Format WordPress standard
+- ✅ **AMELIORATIONS-WP.md** - Documentation des améliorations
+- ✅ **TAILWIND.md** - Guide d'utilisation Tailwind CSS
+- ✅ **Commentaires inline** - Code bien documenté
+
+## 🚀 Roadmap - Fonctionnalités futures
+
+### Version 1.1.0 (Q1 2025)
+- [ ] **Mode sombre natif** - Implémentation complète du dark mode
+- [ ] **Plus de patterns** - 10 nouvelles compositions
+- [ ] **Animations** - Animations CSS et JavaScript
+- [ ] **Lazy loading** - Chargement différé des images
+- [ ] **WebP support** - Support des images WebP
+
+### Version 1.2.0 (Q2 2025)
+- [ ] **WooCommerce** - Support complet e-commerce
+- [ ] **Mega Menu** - Menu de navigation avancé
+- [ ] **Page Builder** - Intégration Elementor/Beaver Builder
+- [ ] **Schema.org** - Données structurées SEO
+- [ ] **AMP support** - Pages mobiles accélérées
+
+### Version 2.0.0 (Q3 2025)
+- [ ] **Multi-sites** - Support WordPress Multisite
+- [ ] **RTL amélioré** - Support complet droite-à-gauche
+- [ ] **Accessibilité WCAG 2.1 AA** - Conformité totale
+- [ ] **Performance Score 100** - Optimisation maximale
+- [ ] **Tests unitaires** - Couverture de code complète
+
+### Fonctionnalités envisagées
+- [ ] **Variations de thème** - Plusieurs styles prédéfinis
+- [ ] **Import/Export** - Sauvegarde des configurations
+- [ ] **Custom Post Types** - Types de contenu personnalisés
+- [ ] **Advanced Search** - Recherche avancée avec filtres
+- [ ] **Newsletter** - Intégration Mailchimp/SendinBlue
+- [ ] **Social Sharing** - Partage sur réseaux sociaux
+- [ ] **Breadcrumbs** - Fil d'Ariane personnalisable
+- [ ] **Related Posts** - Articles similaires
+- [ ] **Reading Time** - Temps de lecture estimé
+- [ ] **Table of Contents** - Table des matières automatique
 
 ## Prérequis
 
