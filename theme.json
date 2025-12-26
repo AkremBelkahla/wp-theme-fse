@@ -509,5 +509,17 @@
             "title": "Pied de page",
             "area": "footer"
         }
+    ],
+    "customTemplates": [
+        {
+            "name": "blank",
+            "title": "Page vierge",
+            "postTypes": ["page"]
+        },
+        {
+            "name": "full-width",
+            "title": "Page pleine largeur",
+            "postTypes": ["page"]
+        }
     ]
 }
