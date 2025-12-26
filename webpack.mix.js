@@ -11,7 +11,8 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('src/js/app.js', 'assets/js')
+mix.setPublicPath('./')
+   .js('src/js/app.js', 'assets/js')
    .postCss('src/css/app.css', 'assets/css', [
      require('postcss-import'),
      require('tailwindcss'),
@@ -20,11 +21,12 @@ mix.js('src/js/app.js', 'assets/js')
    .options({
      processCssUrls: false,
    })
-   .sourceMaps(false, 'source-map')
-   .version();
+   .sourceMaps(false, 'source-map');
 
-// Copier les polices
-mix.copyDirectory('src/fonts', 'assets/fonts');
+// Copier les polices si le dossier existe
+if (require('fs').existsSync('src/fonts')) {
+  mix.copyDirectory('src/fonts', 'assets/fonts');
+}
 
 // Configuration pour le mode production
 if (mix.inProduction()) {

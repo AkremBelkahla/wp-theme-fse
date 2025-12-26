@@ -39,40 +39,9 @@ module.exports = {
         'content': '800px',
         'wide': '1200px',
       },
-      typography: (theme) => ({
-        DEFAULT: {
-          css: {
-            color: theme('colors.dark'),
-            a: {
-              color: theme('colors.primary'),
-              '&:hover': {
-                color: theme('colors.accent'),
-              },
-            },
-            h1: {
-              fontFamily: theme('fontFamily.poppins').join(', '),
-              fontWeight: '700',
-            },
-            h2: {
-              fontFamily: theme('fontFamily.poppins').join(', '),
-              fontWeight: '700',
-            },
-            h3: {
-              fontFamily: theme('fontFamily.poppins').join(', '),
-              fontWeight: '700',
-            },
-            h4: {
-              fontFamily: theme('fontFamily.poppins').join(', '),
-              fontWeight: '700',
-            },
-          },
-        },
-      }),
     },
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-  ],
+  plugins: [],
   corePlugins: {
     preflight: true,
   },
